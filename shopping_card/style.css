@@ -1,0 +1,17 @@
+.product .card{
+    border: 3px solid green;
+    transition: transform 3s ease 0S;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px black;
+}
+
+.product_details{
+    border-radius: 10px;
+    transition : transform 0.3s ease;
+}
+.product_details:hover{
+    transform: translateX(-10px);
+    box-shadow: 0 10px 15px black;
+}
